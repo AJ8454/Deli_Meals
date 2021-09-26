@@ -1,4 +1,4 @@
-import 'package:deli_meals/models/food_data.dart';
+import 'package:deli_meals/food_data/food_data.dart';
 import 'package:deli_meals/widget/category_item.dart';
 import 'package:deli_meals/widget/change_theme_button.dart';
 import 'package:flutter/material.dart';

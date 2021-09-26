@@ -1,8 +1,10 @@
+import 'package:deli_meals/models/meal.dart';
 import 'package:deli_meals/utility/constant.dart';
-import 'category.dart';
+import '../models/category.dart';
 
-// ignore: unnecessary_const, constant_identifier_names
-const FOOD_CATEGORIES = const [
+
+// ignore: constant_identifier_names
+const FOOD_CATEGORIES =  [
   Category(
     id: 'f1',
     title: 'Italian',
@@ -54,3 +56,15 @@ const FOOD_CATEGORIES = const [
     color: kCreamColor,
   ),
 ];
+
+// ignore: constant_identifier_names
+// const MEAL_DATA = [
+//   Meal(
+//     id: 'm1',
+//     categories: [
+//       'f1',
+//       'f2'
+//     ],
+// title: 
+//   ),
+// ];

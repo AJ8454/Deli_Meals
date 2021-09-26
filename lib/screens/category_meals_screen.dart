@@ -10,9 +10,6 @@ class CategoryMealsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text(routeArgs['title']!)),
-      body: const Center(
-        child: Text('CategoryMealsScreen'),
-      ),
     );
   }
 }
